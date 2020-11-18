@@ -22,7 +22,7 @@ Site feito no curso de web design, onde é apresentado uma parte teórica sobre 
 
 ### Resultado
 
-<img src="https://github.com/NiksonDiniz/Projetos-Curso-ORIGAMID/tree/main/Bikcraft/assets/Bikcraft.gif" width="250" height="250" />
+<img src="https://github.com/NiksonDiniz/Projetos-Curso-ORIGAMID/blob/main/Bikcraft/assets/Bikcraft.gif" width="250" height="250" />
 
 ------
 
