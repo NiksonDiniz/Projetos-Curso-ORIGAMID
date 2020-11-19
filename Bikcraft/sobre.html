@@ -3,13 +3,27 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bikcraft - Sobre</title>
+	<title>Bikcraft - Saiba mais sobre a gente</title>
+	<meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bikcraft - Saiba mais sobre a gente" />
+	<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte." />
+	<meta property="og:url" content="http://bikcraft.com/sobre.html" />
+	<meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/sobre.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,12 +47,12 @@
 
 	<section class="introducao-interna interna_sobre">
 		<div class="container">
-			<h1>Sobre</h1>
-			<p>conheça mais sobre a bikcraft</p>
+			<h1 data-anime="400" class="fadeInDown">Sobre</h1>
+			<p data-anime="800" class="fadeInDown">conheça mais sobre a bikcraft</p>
 		</div>
 	</section>
 
-	<section class="missao_sobre container">
+	<section class="fadeInDown missao_sobre container" data-anime="1200">
 		<div class="grid-10">
 			<h2 class="subtitulo-interno">História, Missão e Visão</h2>
 			<p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
@@ -87,14 +101,14 @@
 		</div>
 	</section>
 
-	<section class="quebra">
+	<div class="quebra">
 		<blockquote class="quote-externo container">
 			<p>
 				“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”
 			</p>
 			<cite>WILLIAM MORRIS</cite>
 		</blockquote>
-	</section>
+	</div>
 
 	<footer>
 		<div class="footer">
@@ -130,6 +144,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>

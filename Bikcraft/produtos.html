@@ -3,13 +3,26 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bikcraft - Produtos</title>
+	<title>Bikcraft - Conheça as linhas Passeio, Retrô e Esporte</title>
+	<meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bikcraft - Conheça as linhas Passeio, Retrô e Esporte" />
+	<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte." />
+	<meta property="og:url" content="http://bikcraft.com/produtos.html" />
+	<meta property="og:image" content="http://bikcraft.com/img/og-image.png" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/produtos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,12 +46,12 @@
 
 	<section class="introducao-interna interna_produtos">
 		<div class="container">
-			<h1>Produtos</h1>
-			<p>conheça todos os nossos produtos</p>
+			<h1 data-anime="400" class="fadeInDown">Produtos</h1>
+			<p data-anime="800" class="fadeInDown">conheça todos os nossos produtos</p>
 		</div>
 	</section>
 
-	<section class="container produto_item">
+	<section class="container produto_item fadeInDown" data-anime="1200">
 		<div class="grid-11">
 			<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bicicleta Passeio 1">
 			<h2>Passeio</h2>
@@ -136,14 +149,14 @@
 		</div>
 	</section>
 
-	<section class="quebra">
+	<div class="quebra">
 		<blockquote class="quote-externo container">
 			<p>
 				“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”
 			</p>
 			<cite>WILLIAM MORRIS</cite>
 		</blockquote>
-	</section>
+	</div>
 
 	<footer>
 		<div class="footer">
@@ -179,6 +192,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>
